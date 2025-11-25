@@ -87,10 +87,6 @@ The system implements **Distributed Cascade on Delete** (a form of the Saga patt
 
 **Cleanup Chain**: The DRS consumes this event and executes a compensating transaction, deleting the associated event feature record from its MongoDB collection.
 
-### B. Observability Stack (EFK)
-
-- **Components**: Elasticsearch, Fluent Bit, and Kibana.
-- **Mechanism**: Fluent Bit (DaemonSet) collects stdout logs from all five microservice containers across the cluster nodes and ships them to Elasticsearch.
 - **Verification**: Logs can be filtered in Kibana by `kubernetes.namespace_name: campus-connect` to isolate application activity and debug service interaction failures.
 
 ## 4. Local Development
