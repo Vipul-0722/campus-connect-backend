@@ -1,3 +1,16 @@
+## About Campus Connect
+
+**Campus Connect** is a modern web application designed to streamline campus life by connecting students, organizations, and event coordinators on a single platform. The app enables users to discover and RSVP to campus events, receive real-time notifications, and interact with organizations—all in one place.
+
+Key features include:
+- **Event Discovery:** Browse upcoming campus events, view details, and RSVP.
+- **Organization Profiles:** Explore student organizations, their events, and contact information.
+- **Real-Time Notifications:** Get instant alerts for new events, updates, and announcements via WebSockets.
+- **User Onboarding & Authentication:** Secure registration, login, and verification flows.
+- **Personalized Dashboard:** Track your RSVPs, attended events, and notifications.
+
+Campus Connect is built for scalability and performance, making it easy for universities and colleges to foster engagement and community spirit.
+
 # 💻 Campus Connect: Microservices Backend
 
 This repository contains the complete backend architecture for the Campus Connect platform. The system is built on a **Node.js Microservices Architecture (MSA)** utilizing **Polyglot Persistence** and **Event-Driven Architecture (EDA)** to maximize scalability, resilience, and data composition capabilities.
